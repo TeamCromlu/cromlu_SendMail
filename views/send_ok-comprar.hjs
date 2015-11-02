@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Cromlu: Tu propio portafolio profesional en la web 24/7 @TeamCromlu</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"/>
+	<!-- fuentes -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet" type="text/css">
+	<meta name="description" content="Diseñamos tu propio portafolio profesional en la web 24/7 de forma efectiva, Comparte tu experiencia profesional en un solo lugar, donde quieras y cuando quieras @TeamCromlu">
+	<!--Favicom-->
+	<link rel="icon" type="image/png" href="send/image/cromlu.ico"/>
+	<!--Vista para facebook-->
+	<meta property="og:title" content="Cromlu: Tu propio portafolio profesional en la web 24/7"/>
+    <meta property="og:description" content="Comparte tu experiencia profesional en un solo lugar, donde quieras y cuando quieras @TeamCromlu"/>
+    <meta property="og:image" content="http://cromlu.com/comprar.png"/>   
+    <meta property="og:url" content="http://cromlu.com/comprar"/>
+    <!--link para css -->
+    <link rel="stylesheet" href="./send/css/estilo2.css">
+</head>
+<body>
+<header class="Header-Main">
+	<div class="Header-Main__box">
+		<figure class="Header-Main__logo">
+			<a href="http://www.cromlu.com">
+				<img src="./send/image/cromlu.png" alt="">
+				<h1>Cromlu</h1>
+			</a>
+		</figure>
+	</div>
+</header>
+<section class="happy">
+	<div class="happy__box">
+		<h2>
+			!Listo! <span>{{name}}</span> , Estamos a punto de empezar :D
+		</h2>
+		<p class="mensaje">
+			Te hemos enviado un e-mail con más información a: <strong>{{email}}</strong> <br>
+			porfavor revisa tu bandeja de correo e-mail y comencemos ;)
+		</p>
+		<h4>
+			*si no llega, porfavor revisa en la zona de spam <br>
+			**también puedes escribirnos directamente a web@cromlu.com
+		</h4>
+		<a href="/comprar">Comenzar Ahora!!</a>
+	</div>
+</section>
+</body>
+</html>
